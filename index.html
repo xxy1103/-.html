@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>二次元浓度调查</title>
+    </head>
+    <body>
+        <h1>二次元浓度调查表</h1>
+        <hr>
+        <form>
+        <p><form>
+            姓名：<input type="text" name="name">  年龄：<input type="number" name="old"> 
+        </form></p>
+        <p>您认为您是一个二次元吗？
+            <form> 是 <input type="radio" value="1" name="select" checked="checked"/> 您的漫龄为：<input type="number"> 
+                <br>
+                   不是<input type="radio" value="0" name="select"/>
+            </form>
+        </p>
+        <p>您最喜欢的一部动画/漫画是：<input tyep="text" name="like"></p>
+        <p>请选出以下图片中您看过的动画：
+            <form>
+                <input type="checkbox"><img src="image/1.jpeg" width="200" height="200" alt="进击的巨人 ">  
+                <input type="checkbox"><img src="image/2.png" width="200" height="200" alt="辉夜大小姐想让我告白">
+                <input type="checkbox"><img src="image/3.jpg" width="200" height="200" alt="从零开始的异世界生活">
+                <input type="checkbox"><img src="image/4.png" width="200" height="200" alt="紫罗兰的永恒花园">
+            </form>
+        </p>
+        <p>
+            对您影响最大的一部动画是？可以谈谈对您产生了怎样的影响吗？<br>
+            <textarea rows="10" cols="100" placeholder="请在这里输入"></textarea>
+        </p>
+        <p>您觉得您未来还会喜欢待在acg圈多少年？
+            <form>
+                <select>
+                    <option value="1 month" selected="selected">1个月以内</option>
+                    <option value="1 year">1年以内</option>
+                    <option value="10 year">10年以内</option>
+                    <option value="forever">永远</option>
+                </select>
+            </form>
+        </p>
+        <input type="submit" value="提交">
+    </form>
+    </body>
+</html>
