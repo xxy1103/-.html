@@ -3,21 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <title>二次元浓度调查</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>二次元浓度调查表</h1>
         <hr>
         <form>
         <p><form>
-            姓名：<input type="text" name="name">  年龄：<input type="number" name="old"> 
+            姓名：<input class="name" type="text" name="name">  年龄：<input class="year" type="number" name="old" size="8" maxlength="3"> 
         </form></p>
         <p>您认为您是一个二次元吗？
-            <form> 是 <input type="radio" value="1" name="select" checked="checked"/> 您的漫龄为：<input type="number"> 
+            <form> 是 <input type="radio" value="1" name="select" checked="checked"/> 您的漫龄为：<input type="number" class="year"> 
                 <br>
-                   不是<input type="radio" value="0" name="select"/>
+                   不是<input type="radio" value="0" name="select"/ id="no">
             </form>
         </p>
-        <p>您最喜欢的一部动画/漫画是：<input tyep="text" name="like"></p>
+        <p>您最喜欢的一部动画/漫画是：<input class="name" tyep="text" name="like"></p>
         <p>请选出以下图片中您看过的动画：
             <form>
                 <input type="checkbox"><img src="image/1.jpeg" width="200" height="200" alt="进击的巨人 ">  
@@ -36,7 +37,7 @@
                     <option value="1 month" selected="selected">1个月以内</option>
                     <option value="1 year">1年以内</option>
                     <option value="10 year">10年以内</option>
-                    <option value="forever">永远</option>
+                    <option value="forever" style="color: crimson;">永远</option>
                 </select>
             </form>
         </p>
