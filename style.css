@@ -1,5 +1,7 @@
 body{height: 200px;text-align: center;background-image: url('image/background1.jpeg');background-position: center;font-size: large;font-style: Serif;}
-input{}
+.buttom{width: 100px;height: 40px;}
+select{width: 100px;height: 30px;}
+option{width: 100px;height: 30px;}
 .year{width: 40px;color:#333;background-color: transparent;}
 .name{width: 100px;color:#333;
 
